@@ -30,6 +30,7 @@
     @include heading-3;
     line-height: 1.2;
     margin-bottom: 18px;
+    width: 100%;
 
     @include screen('tablet') {
       margin-bottom: 0;
@@ -43,5 +44,10 @@
   &__text {
     margin-top: auto;
     @include text-big;
+    width: 100%;
+
+    p {
+      width: 100%;
+    }
   }
 }
