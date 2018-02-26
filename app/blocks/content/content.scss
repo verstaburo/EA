@@ -1,0 +1,47 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+
+  @include screen('tablet') {
+    height: 50vh;
+    padding-left: (1/32)*100vw;
+    padding-right: (1/8)*100vw;
+    padding-bottom: 12.5vh;
+    margin-bottom: 0;
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    @include screen('desktop') {
+      height: 10vh;
+    }
+  }
+
+  &__title {
+    @include heading-3;
+    line-height: 1.2;
+    margin-bottom: 18px;
+
+    @include screen('tablet') {
+      margin-bottom: 0;
+    }
+
+    @include screen('desktop') {
+      line-height: .8;
+    }
+  }
+
+  &__text {
+    margin-top: auto;
+    @include text-big;
+  }
+}

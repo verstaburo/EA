@@ -14,6 +14,48 @@
 }
 */
 
+@font-face {
+  font-family: 'PFRegalDisplayPro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/PFRegalDisplayPro-Bold.eot');
+  src:
+    url('../fonts/PFRegalDisplayPro-Bold?#iefix') format('embedded-opentype'),
+    url('../fonts/PFRegalDisplayPro-Bold.woff2') format('woff2'),
+    url('../fonts/PFRegalDisplayPro-Bold.woff') format('woff'),
+    url('../fonts/PFRegalDisplayPro-Bold.otf')  format('opentype'),
+    url('../fonts/PFRegalDisplayPro-Bold.ttf')  format('truetype'),
+    url('../fonts/PFRegalDisplayPro-Bold.svg#PFRegalDisplayPro-Bold') format('svg');
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/SFUIDisplay-Ultralight.eot');
+  src:
+    url('../fonts/SFUIDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFUIDisplay-Ultralight.woff2') format('woff2'),
+    url('../fonts/SFUIDisplay-Ultralight.woff') format('woff'),
+    url('../fonts/SFUIDisplay-Ultralight.otf')  format('opentype'),
+    url('../fonts/SFUIDisplay-Ultralight.ttf')  format('truetype'),
+    url('../fonts/SFUIDisplay-Ultralight.svg#SFUIDisplay-Ultralight') format('svg');
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/SFUIDisplay-Bold.eot');
+  src:
+    url('../fonts/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFUIDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/SFUIDisplay-Bold.woff') format('woff'),
+    url('../fonts/SFUIDisplay-Bold.otf')  format('opentype'),
+    url('../fonts/SFUIDisplay-Bold.ttf')  format('truetype'),
+    url('../fonts/SFUIDisplay-Bold.svg#SFUIDisplay-Bold') format('svg');
+}
+
 /* Соответствие письменного названия жирности числовому значению
 100 — Thin
 200 — Extra Light, Ultra Light

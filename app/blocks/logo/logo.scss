@@ -1,0 +1,53 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+  margin-bottom: 37.5vh;
+  box-sizing: border-box;
+
+  @include screen('tablet') {
+    width: 50%;
+    flex-direction: column;
+    height: 50vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-bottom: 0;
+  }
+
+  &__image {
+    width: 65px;
+    height: 65px;
+    margin-right: 18px;
+
+    @include screen('tablet') {
+      margin-right: 0;
+      margin-bottom: 14px;
+    }
+
+    @include screen('desktop') {
+      width: 78px;
+      height: 78px;
+    }
+  }
+
+  &__content {
+    text-align: left;
+
+    @include screen('tablet') {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    @include heading-2;
+    margin-bottom: 6px;
+  }
+
+  &__text {
+    @include text;
+  }
+}

@@ -3,22 +3,20 @@
 // ##########
 // Базовые настройки сетки сайта
 // ##########
-$container-width: 960px; // Максимальная ширина контейнера контента
-$container-padding: 20px; // Отступы слева и справа у контейнера
+$container-width: 100%; // Максимальная ширина контейнера контента
 $grid-container-width: 100%; // Ширина контейнера сетки
-$grid-cols: 12; // Количество колонок в сетке
-$grid-gap: 20px; // Расстояние между колонками
-$grid-gap-vertical: 20px; // Расстояние между строками в сетке
+$grid-cols: 8; // Количество колонок в сетке
 $grid-col-width: $grid-container-width/$grid-cols; // Ширина одной колонки
 
 // ##########
 // Цвета
 // ##########
-$color-basic: black; // Основной цвет текста (применяется к body)
+$color-basic: white; // Основной цвет текста (применяется к body)
 $color-placeholder: #777; // Основной цвет для placeholder
 $color-input: black; // Основной цвет input, select и textarea
-$color-main: #2252d8; // Основной фирменный цвет
+$color-main: #e4953d; // Основной фирменный цвет
 $color-border: #ccc; // Основной цвет границ таблиц, секций
+$color-background: #262830;
 
 // ##########
 // Transitions
@@ -28,5 +26,5 @@ $ease-main: .3s ease;
 // ##########
 // Шрифты
 // ##########
-$font-main: Arial, sans-serif; // Основной шрифт сайта
-$font-second: Times New Roman, sans-serif; // Дополнительный шрифт
+$font-main: 'SFUIDisplay', 'Arial', sans-serif; // Основной шрифт сайта
+$font-second: 'PFRegalDisplayPro', 'Times New Roman', serif; // Дополнительный шрифт

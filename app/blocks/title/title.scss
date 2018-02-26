@@ -1,0 +1,49 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+
+  @include screen('tablet') {
+    padding-right: (1/32)*100vw;
+    padding-left: (1/8)*100vw;
+    padding-bottom: 12.5vh;
+    height: 50vh;
+    margin-bottom: 0;
+  }
+
+   &__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    @include screen('desktop') {
+      height: 10vh;
+    }
+  }
+
+  &__icon {
+    width: 28px;
+    height: 24px;
+    fill: $color-basic;
+
+    @include screen('tablet', max) {
+      margin-left: 12px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__text {
+    margin-top: auto;
+
+    @include heading-1;
+
+    span {
+      display: block;
+    }
+  }
+}
