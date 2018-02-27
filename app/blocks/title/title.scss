@@ -6,6 +6,10 @@
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 40px;
+  opacity: 0;
+  animation: emergence 1s ease-in-out;
+  animation-delay: 1.6s;
+  animation-fill-mode: forwards;
 
   @include screen('tablet') {
     padding-right: (1/32)*100vw;

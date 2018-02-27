@@ -7,6 +7,10 @@
   box-sizing: border-box;
   padding-top: 30px;
   padding-bottom: 30px;
+  opacity: 0;
+  animation: emergence 1s ease-in-out;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
 
   @include text;
 

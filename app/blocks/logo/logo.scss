@@ -7,6 +7,10 @@
   padding-top: 40px;
   margin-bottom: 37.5vh;
   box-sizing: border-box;
+  opacity: 0;
+  animation: emergence 1s ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 
   @include screen('tablet') {
     width: 50%;
